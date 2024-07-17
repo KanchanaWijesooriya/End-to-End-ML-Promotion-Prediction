@@ -869,3 +869,32 @@ The test dataset includes,
 
 # Univariate Analysis
 
+- Categorical columns in the dataset were considered to analyze their distribution.
+
+![Screenshot 2024-07-17 032004](https://github.com/user-attachments/assets/222a997a-cf1e-40dd-80a7-27ab75a75e0c)
+![Screenshot 2024-07-17 032012](https://github.com/user-attachments/assets/7ee2ae74-b74e-4ddc-a5ec-d97f6296cff8)
+![Screenshot 2024-07-17 032019](https://github.com/user-attachments/assets/0655f47d-b8d6-4963-af42-68566b22cbb0)
+![Screenshot 2024-07-17 032025](https://github.com/user-attachments/assets/933fe364-563a-4ae5-9c42-e200fb182d10)
+
+# Bivariate analysis
+
+- Categorical & Categorical
+
+- Categorical & Numerical
+
+- Numerical & Numerical
+
+![Screenshot 2024-07-17 032031](https://github.com/user-attachments/assets/50b39c98-6aa1-462c-a385-775a5e15ea2b)
+![Screenshot 2024-07-17 032038](https://github.com/user-attachments/assets/377ef1d3-1edf-43cf-8997-776b9641d4fa)
+![Screenshot 2024-07-17 032045](https://github.com/user-attachments/assets/004023ef-b0a3-4573-941f-1968c15c3498)
+![Screenshot 2024-07-17 032052](https://github.com/user-attachments/assets/58f7ec40-46e2-4a81-b9d5-b7e5c0851007)
+
+# Multivariate Analysis
+
+- Examining multiple variables to understand relationships and patterns in the data. It allows for the consideration of multiple features simultaneously, enhancing predictive power and model accuracy.
+
+![Screenshot 2024-07-17 032110](https://github.com/user-attachments/assets/6b604fb3-23f2-4851-801b-8ce2733a7aed)
+![Screenshot 2024-07-17 213051](https://github.com/user-attachments/assets/daca4838-cd04-456c-86ed-a24bc93424bf)
+
+# Feature Engineering
+
