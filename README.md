@@ -1,5 +1,3 @@
-# End to End ML Promotion Prediction 
-
 # Predict whether an employee within an organization should receive a promotion.
 
 # Introduction
@@ -827,3 +825,47 @@ The train dataset includes,
 - 54808 instances and 14 features (with target).
 - Has missing values? YES
 - Features: 'employee_id', 'department', 'region', 'education', 'gender', 'recruitment_channel', 'no_of_trainings', 'age', 'previous_year_rating', 'length_of_service', 'KPIs_met >80%', 'awards_won?', 'avg_training_score', 'is_promoted'
+
+The test dataset includes,
+
+- 23490 instances and 13 features (without target).
+- Features: 'employee_id', 'department', 'region', 'education', 'gender', 'recruitment_channel', 'no_of_trainings', 'age', 'previous_year_rating', 'length_of_service', 'KPIs_met >80%', 'awards_won?', 'avg_training_score'
+
+# Histograms of Features
+
+- Visualized distributions of each feature to understand their distributions and identify potential outliers.
+
+# Features Distribution of train data
+
+![Screenshot 2024-07-17 214624](https://github.com/user-attachments/assets/3a943a0c-fd32-4ad8-a184-298a3304df6a)
+![Screenshot 2024-07-17 214634](https://github.com/user-attachments/assets/d4dc109b-bf8d-4d73-8b6b-aa8ea3ace569)
+![Screenshot 2024-07-17 214642](https://github.com/user-attachments/assets/d3455707-009f-451f-ac7b-446dfe90226c)
+![Screenshot 2024-07-17 214649](https://github.com/user-attachments/assets/120f8075-bc87-425e-a5c9-400fe8810417)
+![Screenshot 2024-07-17 214658](https://github.com/user-attachments/assets/e3980c21-bdbe-46ee-97fc-fb3f966eabef)
+
+# Features Distribution of test data
+
+![Screenshot 2024-07-17 214710](https://github.com/user-attachments/assets/9f9ad145-4282-4a53-a84e-1dd89d06b50a)
+![Screenshot 2024-07-17 214721](https://github.com/user-attachments/assets/d3d52028-2b4e-4e8a-be0b-ed9d267b9edf)
+![Screenshot 2024-07-17 214728](https://github.com/user-attachments/assets/e032d60d-f2ed-4ed4-b9e3-10342c45c921)
+![Screenshot 2024-07-17 214734](https://github.com/user-attachments/assets/59f5d314-b4af-4d96-9702-b00572a13373)
+
+# Target Distribution.
+
+![Screenshot 2024-07-17 214745](https://github.com/user-attachments/assets/4a976ca9-495a-4d99-a223-689a3eb8446e)
+
+# Handling Outliers
+
+- Missing values have been replaced by mode values.
+- The IQR (Interquartile Range) method was used to handle outliers.
+
+### **Before Clear Outliers**
+
+![Screenshot 2024-07-17 214801](https://github.com/user-attachments/assets/b0a6106c-b32a-4753-a804-2bc93a1a6264)
+
+### **After Clear Outliers**
+
+![Screenshot 2024-07-17 214808](https://github.com/user-attachments/assets/8e18f0dc-dbab-43b7-85e4-4aa38795236e)
+
+# Univariate Analysis
+
