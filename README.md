@@ -838,16 +838,23 @@ The test dataset includes,
 # Features Distribution of train data
 
 ![Screenshot 2024-07-17 214624](https://github.com/user-attachments/assets/3a943a0c-fd32-4ad8-a184-298a3304df6a)
+
 ![Screenshot 2024-07-17 214634](https://github.com/user-attachments/assets/d4dc109b-bf8d-4d73-8b6b-aa8ea3ace569)
+
 ![Screenshot 2024-07-17 214642](https://github.com/user-attachments/assets/d3455707-009f-451f-ac7b-446dfe90226c)
+
 ![Screenshot 2024-07-17 214649](https://github.com/user-attachments/assets/120f8075-bc87-425e-a5c9-400fe8810417)
+
 ![Screenshot 2024-07-17 214658](https://github.com/user-attachments/assets/e3980c21-bdbe-46ee-97fc-fb3f966eabef)
 
 # Features Distribution of test data
 
 ![Screenshot 2024-07-17 214710](https://github.com/user-attachments/assets/9f9ad145-4282-4a53-a84e-1dd89d06b50a)
+
 ![Screenshot 2024-07-17 214721](https://github.com/user-attachments/assets/d3d52028-2b4e-4e8a-be0b-ed9d267b9edf)
+
 ![Screenshot 2024-07-17 214728](https://github.com/user-attachments/assets/e032d60d-f2ed-4ed4-b9e3-10342c45c921)
+
 ![Screenshot 2024-07-17 214734](https://github.com/user-attachments/assets/59f5d314-b4af-4d96-9702-b00572a13373)
 
 # Target Distribution.
@@ -872,8 +879,11 @@ The test dataset includes,
 - Categorical columns in the dataset were considered to analyze their distribution.
 
 ![Screenshot 2024-07-17 032004](https://github.com/user-attachments/assets/222a997a-cf1e-40dd-80a7-27ab75a75e0c)
+
 ![Screenshot 2024-07-17 032012](https://github.com/user-attachments/assets/7ee2ae74-b74e-4ddc-a5ec-d97f6296cff8)
+
 ![Screenshot 2024-07-17 032019](https://github.com/user-attachments/assets/0655f47d-b8d6-4963-af42-68566b22cbb0)
+
 ![Screenshot 2024-07-17 032025](https://github.com/user-attachments/assets/933fe364-563a-4ae5-9c42-e200fb182d10)
 
 # Bivariate analysis
@@ -885,8 +895,11 @@ The test dataset includes,
 - Numerical & Numerical
 
 ![Screenshot 2024-07-17 032031](https://github.com/user-attachments/assets/50b39c98-6aa1-462c-a385-775a5e15ea2b)
+
 ![Screenshot 2024-07-17 032038](https://github.com/user-attachments/assets/377ef1d3-1edf-43cf-8997-776b9641d4fa)
+
 ![Screenshot 2024-07-17 032045](https://github.com/user-attachments/assets/004023ef-b0a3-4573-941f-1968c15c3498)
+
 ![Screenshot 2024-07-17 032052](https://github.com/user-attachments/assets/58f7ec40-46e2-4a81-b9d5-b7e5c0851007)
 
 # Multivariate Analysis
@@ -894,21 +907,24 @@ The test dataset includes,
 - Examining multiple variables to understand relationships and patterns in the data. It allows for the consideration of multiple features simultaneously, enhancing predictive power and model accuracy.
 
 ![Screenshot 2024-07-17 032110](https://github.com/user-attachments/assets/6b604fb3-23f2-4851-801b-8ce2733a7aed)
+
 ![Screenshot 2024-07-17 213051](https://github.com/user-attachments/assets/daca4838-cd04-456c-86ed-a24bc93424bf)
 
 # Feature Engineering
 
 Created two new features.
 
-Sum_Metric
-Total_Score
+- Sum_Metric
+
+- Total_Score
 
 # Model Selection & Building
 
 # Decision Tree Classifier
 
-Training Accuracy:  0.9900954463047883
-Testing Accuracy:  0.9313746400767836
+- Training Accuracy:  0.9900954463047883
+  
+- Testing Accuracy:  0.9313746400767836
 
 ![Screenshot 2024-07-17 032121](https://github.com/user-attachments/assets/e09813db-e102-46a1-baf7-e949608375a3)
 
@@ -1690,8 +1706,9 @@ weighted   avg | 0.93 | 0.93 | 0.93 | 18754
 
 # Random Forest Classifier
 
-Training Accuracy:  0.9900954463047883
-Validation Accuracy:  0.9464647541857737
+- Training Accuracy:  0.9900954463047883
+
+- Validation Accuracy:  0.9464647541857737
 
 ![Screenshot 2024-07-17 032132](https://github.com/user-attachments/assets/a3ae1a07-2bdb-4c60-886d-93acfa222986)
 
@@ -2473,8 +2490,9 @@ weighted   avg | 0.93 | 0.93 | 0.93 | 18754
 
 # Logistic Regression
 
-Training Accuracy:  0.7647701823610963
-Validation Accuracy:  0.7637304041804415
+- Training Accuracy:  0.7647701823610963
+
+- Validation Accuracy:  0.7637304041804415
 
 ![Screenshot 2024-07-17 032142](https://github.com/user-attachments/assets/e8b98a69-4513-4a20-a94c-1a504d11d3d6)
 
@@ -3256,8 +3274,9 @@ weighted   avg | 0.76 | 0.76 | 0.76 | 18754
 
 # K Neighbors Classifier
 
-Training Accuracy:  0.8720939532899649
-Validation Accuracy:  0.8474458782126479
+- Training Accuracy:  0.8720939532899649
+  
+- Validation Accuracy:  0.8474458782126479
 
 ![Screenshot 2024-07-17 032155](https://github.com/user-attachments/assets/38214f63-d399-406f-8f4d-ec541cfb6655)
 
@@ -4039,8 +4058,9 @@ weighted   avg | 0.76 | 0.76 | 0.76 | 18754
 
 # SGD Classifier with Stochastic Gradient Descent
 
-Training Accuracy: 0.756291991041911
-Validation Accuracy: 0.7526394369201237
+- Training Accuracy: 0.756291991041911
+
+- Validation Accuracy: 0.7526394369201237
 
 ![Screenshot 2024-07-17 032205](https://github.com/user-attachments/assets/62d49661-8cf9-4bc3-874d-4b7fbf7f1c54)
 
@@ -4048,8 +4068,9 @@ Validation Accuracy: 0.7526394369201237
 
 # XGBoost
 
-Training Accuracy:  0.9138317159006079
-Validation Accuracy:  0.8989015676655647
+- Training Accuracy:  0.9138317159006079
+
+- Validation Accuracy:  0.8989015676655647
 
 ![Screenshot 2024-07-17 032215](https://github.com/user-attachments/assets/1f695b3b-aac0-4aeb-9b09-64e0b42501b5)
 
@@ -4057,4 +4078,4 @@ Validation Accuracy:  0.8989015676655647
 
 # Conclusion
 
-Best Model: Random Forest Classifier (Accuracy: 99.9900%, AUC: 0.99)
+- Best Model: Random Forest Classifier (Accuracy: 99.9900%, AUC: 0.99)
