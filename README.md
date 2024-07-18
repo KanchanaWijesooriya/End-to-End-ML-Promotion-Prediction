@@ -1,5 +1,7 @@
 # Predict whether an employee within an organization should receive a promotion.
 
+For more details, view ---------> End_To_End_Promotion_Prediction.ipynb 
+
 # Introduction
 
 The client, a large multinational corporation (MNC), operates across 15 broad verticals. One significant challenge the client faces is identifying suitable candidates for promotion, specifically for managerial positions and below, and preparing them in a timely manner. The current process involves several steps:
